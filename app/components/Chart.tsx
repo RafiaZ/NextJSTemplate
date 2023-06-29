@@ -48,9 +48,9 @@ const ProductChart: React.FC = () => {
 
   return (
     <div>
-      <h2>Product Count Chart</h2>
+      <h2 className='heading text-4xl font-bold text-gray-80'>Product Count Chart</h2>
       {labels.length > 0 && counts.length > 0 ? (
-        <XYPlot width={500} height={300} xType="ordinal">
+        <XYPlot width={700} height={300} xType="ordinal">
           <VerticalBarSeries data={labels.map((label, index) => ({ x: label, y: counts[index] }))} barWidth={0.5} />
           <XAxis />
           <YAxis />

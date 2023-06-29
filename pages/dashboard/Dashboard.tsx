@@ -37,7 +37,7 @@ const Dashboard = () => {
 
 
   return (
-    <section className="dashboard container container-space ">
+    <section className="dashboard">
       <div className="menuDiv">
         <img
           className="menuIcon"

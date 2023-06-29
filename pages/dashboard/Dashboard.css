@@ -83,9 +83,9 @@
 }
 
 .dashboard .right {
-  width: 70%;
+  width: 100%;
   background: #ffffff;
-  padding: 30px;
+ 
   padding-top: 74px;
   height: 97vh;
   overflow-y: auto;
