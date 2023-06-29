@@ -55,7 +55,7 @@ const Overview = () => {
                 <input
                     type="text"
                     className="px-4 py-2 border border-gray-300 rounded-md"
-                    placeholder="Input Field"
+                    placeholder="Search your product here"
                     value={filterValue}
                     onChange={handleFilterChange}
                 />
