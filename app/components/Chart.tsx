@@ -41,7 +41,10 @@ const ProductChart: React.FC = () => {
     const labels = Object.keys(countMap);
     const counts = labels.map(category => countMap[category]);
 
+   
+
     return { labels, counts };
+
   };
 
   const { labels, counts } = generateChartData(data);
